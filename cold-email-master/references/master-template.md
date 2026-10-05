@@ -224,7 +224,7 @@ The five-level inbox health process from `deliverability.md` §8 with this campa
 
 ## QC checklist: the second-agent pass
 
-12 to 16 numbered checks a second agent (never the writer) runs on all 22 touches per lead. The base set is in `checklists.md` §2; add doc-specific checks (naming, roster, designated lines, routing, regulated-field rules). Touch 1 gets the strictest read.
+Numbered checks a second agent (never the writer) runs on all 22 touches per lead. The base set is the 19 in `checklists.md` §2; add doc-specific checks (naming, roster, designated lines, routing, regulated-field rules). Touch 1 gets the strictest read.
 
 ## Open items
 

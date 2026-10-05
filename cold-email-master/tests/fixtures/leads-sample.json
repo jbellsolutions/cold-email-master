@@ -1,8 +1,20 @@
 {
   "ray@akronauto.example": {
-    "F1": {"subject": "ninety seconds", "body": "Hey Ray,\n\nSaw three of your reviews say you found the leak two other shops missed on Market Street.\n\nThat's the part I keep thinking about. You hear a car pull in and you know it's the timing belt before the driver gets out. Took you twenty years to learn that. Nobody has asked you how.\n\nI'm putting together the Real Experts Series. A 20 to 30 minute interview about what you've seen. No pitch, nothing hidden. If it's not your thing, no problem.\n\nReply and I'll send you more.\n\nDana"}
+    "F1": {
+      "subject": "ninety seconds",
+      "body": "Hey Ray,\n\nSaw three of your reviews say you found the leak two other shops missed on Market Street.\n\nThat's the part I keep thinking about. You hear a car pull in and you know it's the timing belt before the driver gets out. Took you twenty years to learn that. Nobody has asked you how.\n\nI'm putting together the Real Experts Series. A 20 to 30 minute interview about what you've seen. No pitch, nothing hidden. If it's not your thing, no problem.\n\nReply and I'll send you more.\n\nDana"
+    }
   },
   "jo@toledoauto.example": {
-    "F1": {"subject": "ninety seconds", "body": "Hey Jo,\n\nSaw three of your reviews say you found the leak two other shops missed on Market Street.\n\nThat's the part I keep thinking about. You hear a car pull in and you know it's the timing belt before the driver gets out. Took you twenty years to learn that. Nobody has asked you how.\n\nI'm putting together the Real Experts Series. A 20 to 30 minute interview about what you've seen. No pitch, nothing hidden. If it's not your thing, no problem.\n\nReply and I'll send you more.\n\n{sender}"}
+    "F1": {
+      "subject": "ninety seconds",
+      "body": "Hey Jo,\n\nSaw three of your reviews say you found the leak two other shops missed on Market Street.\n\nThat's the part I keep thinking about. You hear a car pull in and you know it's the timing belt before the driver gets out. Took you twenty years to learn that. Nobody has asked you how.\n\nI'm putting together the Real Experts Series. A 20 to 30 minute interview about what you've seen. No pitch, nothing hidden. If it's not your thing, no problem.\n\nReply and I'll send you more.\n\n{sender}"
+    }
+  },
+  "sam@spintax.example": {
+    "F1": {
+      "subject": "ninety seconds",
+      "body": "{{RANDOM | Hey | Hi}} Sam,\n\nThree reviews say you found the misfire two other shops missed on Main Street.\n\nI'd bet you knew within ninety seconds of the car rolling in. That takes years to learn, and I doubt anyone has asked you how you know it so fast.\n\nI'm putting together the Real Experts Series, because it's not what you know. It's what you've seen. A 20 to 30 minute interview about what you've learned. No pitch, nothing hidden.\n\nReply and I'll send the three questions. If it's not for you, no problem.\n\nDana"
+    }
   }
 }

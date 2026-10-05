@@ -55,7 +55,7 @@ Idea bank by business type [INSTANTLY]: SEO, a Google Business Profile tune-up. 
 - **Email finding:** guess the common patterns (first@, first.last@, flast@, last@) and verify each before paying for anything. Guessing plus verifying finds about 60 to 70%. Do not guess 28 permutations. Catch-all domains need catch-all verification. [ERIC]
 - **Verify every address.** Spam traps are seeded in B2B databases; one can blacklist a domain. [JAY]
 
-**House rule (Justin, absolute): no paid enrichment SaaS** (Clay, Apollo, Hunter, Ocean, ZoomInfo and the like). The videos name many vendors; we keep their methods and execute in-house: `lead-warehouse`, `revyops-lead-sourcing`, `apify-enrich`, browser-use, Orgo, Composio, and `verify-emails` / `verify-leads` (self-hosted Reacher) for verification. The List & Signals agent owns this.
+**House rule (Justin, absolute): no paid enrichment SaaS** (Clay, Apollo, Hunter, Ocean, ZoomInfo and the like). The videos name many vendors; we keep their methods and execute in-house: `lead-warehouse` (the store), `apify-enrich` (pay-per-result scrapers only), browser-use, Orgo, Composio, and `verify-emails` / `verify-leads` (self-hosted Reacher) for verification. Not `revyops-lead-sourcing` (its connectors are Apollo, Prospeo, Hunter, LeadMagic). The List & Signals agent owns this.
 
 ## 5. Campaign modes
 

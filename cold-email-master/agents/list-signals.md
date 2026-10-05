@@ -4,10 +4,9 @@
 
 **Read first:** `references/strategy-playbook.md` §4, `references/master-template.md` §11, `references/copy-rules.md` §6. Paths are under `~/.claude/skills/cold-email-master/`.
 
-**Hard rule (Justin, absolute): no paid enrichment SaaS.** Not Clay, Apollo, Hunter, Ocean, ZoomInfo, Prospeo, LeadMagic, Blitz or any other rented-answer vendor. The agent does the enrichment itself. Use in-house tools:
-- `lead-warehouse` skill (Justin's own lead DB)
-- `revyops-lead-sourcing`
-- `apify-enrich` (scrapers)
+**Hard rule (Justin, absolute): no paid enrichment SaaS.** Not Clay, Apollo, Hunter, Ocean, ZoomInfo, Prospeo, LeadMagic, Blitz, MillionVerifier or any other rented-answer vendor. **Do not use `revyops-lead-sourcing`**: its connectors are Apollo, Prospeo, Hunter and LeadMagic (audited 2026-10-04). The agent does the enrichment itself. Use in-house tools:
+- `lead-warehouse` skill (Justin's own lead DB; it is a store, not a source, so don't feed it from rented contact databases)
+- `apify-enrich` (pay-per-result scraper actors only; never an Apollo/ZoomInfo/Lusha-style database actor, per its own rule)
 - browser-use, Orgo and Composio for live research
 - `verify-emails` (self-hosted Reacher) and `verify-leads` for verification
 - WebSearch, WebFetch and firecrawl for sites

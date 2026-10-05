@@ -2,7 +2,7 @@ import json,re
 L="https://experts.truerevenuepartnerships.com/?ref=LEADREF"
 leads={}
 def add(k,**kw): leads[k]=kw
-add("contact5starauto@yahoo.com",
+add("five-star-auto-care-mentor@example.invalid",
 F1=("ninety seconds","""Hey Shawn,
 
 A reviewer wrote that their dad raved about your work on his 1964 Ford Falcon Futura.
@@ -27,7 +27,7 @@ Want the three questions Justin, who hosts it, would ask you? Just reply. Totall
 
 Dana"""),
 F2_FU=("ask a machine","Hey Shawn, a scan tool tells you which code is stored. It never tells you what the code is leaving out, and nobody can look that up. What do you check first when a code points at the wrong part?"))
-add("contact@millenniumtransmissioninc.com",
+add("millennium-transmission-akron@example.invalid",
 F1=("how you know","""Hey Ziad,
 
 A reviewer wrote that you called a repair not worth doing, because of bigger problems underneath.
@@ -52,7 +52,7 @@ Hit reply and you'll have the three questions today. If now's a bad time, it can
 
 Dana"""),
 F2_FU=("never done it","Hey Ziad, a rebuild can look perfect on the bench and still fail on the road, and no manual says which ones. What's the one sign you trust before a car ever reaches the lift?"))
-add("contact@aseohio.com",
+add("auto-service-experts-grove-city@example.invalid",
 F1=("ninety seconds","""Hey Mike,
 
 A reviewer wrote that their pickup wouldn't start, and your shop found nothing wrong and charged only for the diagnostic.
@@ -83,6 +83,6 @@ for k,d in leads.items():
     for fw,v in d.items():
         print(k[:12],fw,len(v[1].split()))
 json.dump(out,open("leads.json","w"),indent=2)
-json.dump({"contact5starauto@yahoo.com":{"company":"5 Star Auto Care","city":"Mentor"},
-"contact@millenniumtransmissioninc.com":{"company":"Millennium Transmission & Auto Care","city":"Akron"},
-"contact@aseohio.com":{"company":"Auto Service Experts OH","city":"Grove City"}},open("packets.json","w"),indent=2)
+json.dump({"five-star-auto-care-mentor@example.invalid":{"company":"5 Star Auto Care","city":"Mentor"},
+"millennium-transmission-akron@example.invalid":{"company":"Millennium Transmission & Auto Care","city":"Akron"},
+"auto-service-experts-grove-city@example.invalid":{"company":"Auto Service Experts OH","city":"Grove City"}},open("packets.json","w"),indent=2)

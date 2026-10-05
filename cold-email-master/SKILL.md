@@ -30,7 +30,7 @@ Read before acting (paths relative to this file; resolve to absolute paths when 
 
 1. **Never send, schedule, upload to Instantly, buy domains or mailboxes, or change DNS without Justin's explicit approval in chat.** You draft, plan, audit and verify.
 2. **Never fabricate.** No invented stats, clients, results, guests, local details or quotes. Missing proof stays missing and goes in Open Items.
-3. **No paid enrichment SaaS** (Clay, Apollo, Hunter, Ocean, ZoomInfo and the like). Methods yes, vendors no. In-house tools only (see `agents/list-signals.md`).
+3. **No paid enrichment SaaS** (Clay, Apollo, Hunter, Ocean, ZoomInfo and the like, and skills that route to them, e.g. `revyops-lead-sourcing`). Methods yes, vendors no. In-house tools only (see `agents/list-signals.md`).
 4. **Plain house voice, Buchan techniques, no jokes.**
 5. **Fix in order: infrastructure, then list, then offer, then copy.** Copy never rescues a bad offer.
 6. **No timelines.** Milestones and dependencies only. (Cadence days and warmup durations are product specs, not estimates.)
@@ -64,6 +64,10 @@ Pin these before dispatching. Pull from project files, attached docs and past ca
 - **Context docs:** master plan, call notes, offer docs, earlier frameworks docs.
 
 Missing and unknowable → write `[NEEDS: ...]` into Open Items, never guess, keep building everything else.
+
+## Running without subagents (Hermes, or any runtime with no Agent tool)
+
+This skill is also linked into Hermes profiles. If you cannot spawn subagents or pick models, run the same stages yourself, in the same order: for each stage, read that stage's `agents/*.md` file and follow it as your instructions for that step, then move on. Keep every gate (the Strategist's FIX FIRST stop, the ED brief, the QC pass with `verify_doc.py`, Justin's approval before anything sends). Do the QC stage as a deliberately separate pass: re-read the whole doc cold against `references/checklists.md` §2 as if someone else wrote it.
 
 ## Run the team (Mode 1)
 

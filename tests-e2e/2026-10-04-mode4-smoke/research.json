@@ -1,5 +1,5 @@
 {
-  "contact5starauto@yahoo.com": {
+  "five-star-auto-care-mentor@example.invalid": {
     "company": "5 Star Auto Care",
     "city": "Mentor, OH",
     "segment": "Auto and repair",
@@ -25,9 +25,9 @@
       "1st place at the 2001 Greater Cleveland Automobile Dealers Association Auto Tech competition (Mentor High School team)",
       "ASE Master Technician certificate earned while still in school"
     ],
-    "email_found": "contact5starauto@yahoo.com (https://5starautocareonline.com/contact-us)"
+    "email_found": "five-star-auto-care-mentor@example.invalid (https://5starautocareonline.com/contact-us)"
   },
-  "contact@millenniumtransmissioninc.com": {
+  "millennium-transmission-akron@example.invalid": {
     "company": "Millennium Transmission & Auto Care",
     "city": "Akron, OH",
     "segment": "Auto and repair",
@@ -51,7 +51,7 @@
     ],
     "email_found": "none public; key is placeholder contact@domain"
   },
-  "contact@aseohio.com": {
+  "auto-service-experts-grove-city@example.invalid": {
     "company": "Auto Service Experts OH",
     "city": "Grove City, OH",
     "segment": "Auto and repair",

@@ -335,6 +335,8 @@ def verify_leads(paths, packets_path, canonical_path, threshold, banned):
             check_email(label, body, kind, banned, problems, notes, grades)
             if re.search(r"(?<!\{)\{[^{}]+\}(?!\})", body + subj) or re.search(r"\[[^\]]+\]", body + subj):
                 problems.append(f"{label}: unfilled placeholder or bracket")
+            if "{{" in body + subj or "}}" in body + subj:
+                problems.append(f"{label}: unrendered spintax or variable (per-lead upload copy must be fully rendered)")
             if subj:
                 check_subjects_single(label, subj, problems)
             first = " ".join(body.split()[:25]).lower()
