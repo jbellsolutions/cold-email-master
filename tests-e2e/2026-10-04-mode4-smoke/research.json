@@ -1,0 +1,78 @@
+{
+  "contact5starauto@yahoo.com": {
+    "company": "5 Star Auto Care",
+    "city": "Mentor, OH",
+    "segment": "Auto and repair",
+    "first_name": "Shawn",
+    "first_name_source": "https://5starautocareonline.com/about-us",
+    "track": "A",
+    "regulated": false,
+    "details": [
+      {
+        "use": "F1",
+        "grade": "Gold",
+        "text": "A reviewer (7/2/2024) says their dad raved about Shawn's repairs on his 1964 Ford Falcon Futura and kept saying Shawn knows his stuff",
+        "source": "https://5starautocareonline.com/"
+      },
+      {
+        "use": "F2",
+        "grade": "Silver",
+        "text": "In 2003 Shawn opened a two bay shop under Extreme Toyzz LLC in Mentor hoping to specialize in custom high performance upgrades",
+        "source": "https://5starautocareonline.com/about-us"
+      }
+    ],
+    "unused_spare": [
+      "1st place at the 2001 Greater Cleveland Automobile Dealers Association Auto Tech competition (Mentor High School team)",
+      "ASE Master Technician certificate earned while still in school"
+    ],
+    "email_found": "contact5starauto@yahoo.com (https://5starautocareonline.com/contact-us)"
+  },
+  "contact@millenniumtransmissioninc.com": {
+    "company": "Millennium Transmission & Auto Care",
+    "city": "Akron, OH",
+    "segment": "Auto and repair",
+    "first_name": "Ziad",
+    "first_name_source": "https://millenniumtransmissioninc.com/about/ (Meet the team: Ziad Chiti, Owner)",
+    "track": "A",
+    "regulated": false,
+    "details": [
+      {
+        "use": "F1",
+        "grade": "Gold",
+        "text": "Reviewer Cory wrote that instead of just doing the repair and charging, they said it wasn't worth it because of bigger issues",
+        "source": "https://millenniumtransmissioninc.com/"
+      },
+      {
+        "use": "F2",
+        "grade": "Silver",
+        "text": "Shop opened in 1998 as a first-generation, family-owned and operated business",
+        "source": "https://millenniumtransmissioninc.com/about/"
+      }
+    ],
+    "email_found": "none public; key is placeholder contact@domain"
+  },
+  "contact@aseohio.com": {
+    "company": "Auto Service Experts OH",
+    "city": "Grove City, OH",
+    "segment": "Auto and repair",
+    "first_name": "Mike",
+    "first_name_source": "https://aseohio.com/our-team/ (Mike, Owner)",
+    "track": "A",
+    "regulated": false,
+    "details": [
+      {
+        "use": "F1",
+        "grade": "Gold",
+        "text": "Google review (via Trustindex, Daniel Schrader): pickup wouldn't start, shop diagnosed it in a few hours, fully tested, found nothing wrong, charged only for the diagnostic, credits Mike",
+        "source": "https://aseohio.com/our-team/"
+      },
+      {
+        "use": "F2",
+        "grade": "Silver",
+        "text": "Mike has over 35 years of experience working for dealerships and independent repair shops (ASE Master Certified)",
+        "source": "https://aseohio.com/our-team/"
+      }
+    ],
+    "email_found": "none public; key is placeholder contact@domain"
+  }
+}

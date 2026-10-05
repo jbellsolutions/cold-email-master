@@ -82,6 +82,7 @@ def unquote(block):
 def words(text):
     t = render_spin(text)
     t = re.sub(r"\{[^{}]*\}", "X", t)  # a writer placeholder counts as one word
+    t = re.sub(r"https?://\S+|www\.\S+", "link", t)  # so does a URL
     return [w for w in WORD.findall(t) if re.search(r"[A-Za-z0-9]", w)]
 
 
@@ -98,6 +99,7 @@ def syllables(word):
 
 def fk_grade(text):
     t = re.sub(r"\{[^{}]*\}", "X", render_spin(text))
+    t = re.sub(r"https?://\S+|www\.\S+", "link", t)  # a URL reads as one word, not a long sentence
     # greeting and sign-off lines are not prose
     lines = [l for l in t.splitlines() if l.strip()]
     if lines and re.match(r"^(hey|hi|hello|g'day|dear)\b", lines[0].strip(), re.I) and len(lines[0].split()) <= 4:
