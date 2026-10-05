@@ -1,0 +1,8 @@
+{
+  "ray@akronauto.example": {
+    "F1": {"subject": "ninety seconds", "body": "Hey Ray,\n\nSaw three of your reviews say you found the leak two other shops missed on Market Street.\n\nThat's the part I keep thinking about. You hear a car pull in and you know it's the timing belt before the driver gets out. Took you twenty years to learn that. Nobody has asked you how.\n\nI'm putting together the Real Experts Series. A 20 to 30 minute interview about what you've seen. No pitch, nothing hidden. If it's not your thing, no problem.\n\nReply and I'll send you more.\n\nDana"}
+  },
+  "jo@toledoauto.example": {
+    "F1": {"subject": "ninety seconds", "body": "Hey Jo,\n\nSaw three of your reviews say you found the leak two other shops missed on Market Street.\n\nThat's the part I keep thinking about. You hear a car pull in and you know it's the timing belt before the driver gets out. Took you twenty years to learn that. Nobody has asked you how.\n\nI'm putting together the Real Experts Series. A 20 to 30 minute interview about what you've seen. No pitch, nothing hidden. If it's not your thing, no problem.\n\nReply and I'll send you more.\n\n{sender}"}
+  }
+}
