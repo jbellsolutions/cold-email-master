@@ -84,7 +84,7 @@ Buchan's follow-up map is the best taxonomy of *why* a follow-up gets answered. 
 | Honest no-reply admission | "No reply yet, which usually means busy, not no." + the question | Any reply, including no |
 | The useful one | One relevant, verified fact or observation about their world + why it matters to them + the question | Value |
 | Yes or no both welcome | "A quick yes or no is plenty, either one helps." | A decision |
-| Three options (plain) | "Ignore this and I'll get the hint. Reply and I'll send {reward}. Or call me on {number} if that's easier." | A reply as the easy middle option |
+| Three options (plain) | "Not for you? Tell me and I'll stop. Reply and I'll send {reward}. Or call me on {number} if that's easier." (Buchan's original opens "Ignore this and I'll get the picture"; the house drops it because it reads as "silence means no".) | A reply as the easy middle option |
 | Pure value, no ask | Send the useful thing, no question (use sparingly; house follow-ups normally end on a question, so this lives in Closer 2 territory) | Goodwill |
 | Breakup | "I may have jumped the gun." "This is my last note." "If I've got it wrong, a one-line reply is all it takes." | The distracted reader's last chance |
 

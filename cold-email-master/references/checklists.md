@@ -52,6 +52,9 @@ A second agent, never the writer, runs `scripts/verify_doc.py` and then reads. A
 14. **Spin sets:** every framework has one; subjects have 3+ options; every option passes the rules.
 15. **Opt-out:** Closer 1 and Closer 2 carry a plain opt-out line; nothing says "silence means no".
 16. **Touch 1 read twice:** the lead framework's example is the best email in the doc. If it isn't, fix it first.
+17. **No repeats across the lead's sequence:** no two closes, escape hatches, opt-outs or follow-up jobs share a sentence or a skeleton (the verifier flags identical closes; a reader catches near-twins).
+18. **Research math:** the checklist yields one distinct detail per framework email that will be sent, and thin-research routing covers every detail count.
+19. **Cross-section consistency:** the reward, recycle offer, subjects, open-item numbering and capacity figures say the same thing in §0, the frameworks, the closers, the reply section and the infra section.
 
 ## 3. Pre-launch gate (nothing sends until every box is ticked)
 

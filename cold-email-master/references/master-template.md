@@ -130,7 +130,8 @@ Per segment: their word for customers, the scene for pain #1, detail swaps, fram
 - **The specificity test** with Gold, Silver, Bronze definitions and examples for this niche.
 - **The 10-minute rule:** the relevance line says what a smart person would conclude after 10 minutes of looking, not "loved your website".
 - **Research checklist (10 to 13 items, logged per lead with the source):** segment, first name, track, N passing details (one per framework email that needs one, never reused), the signal the list was filtered on, inputs every conditional framework needs, the free thing's inputs, regulated-field check, sender-truth check, and real local candidates from the list tool for maps (never named in email).
-- **Routing rule for thin research:** what runs when too few details pass, and when to skip the lead. Never send a bracket, a guess or an invented detail.
+- **Detail count = email count.** Details are never reused, so a full Standard sequence needs one distinct Gold/Silver detail per framework email (ten). Say how many the checklist must find.
+- **Routing rule for thin research, covering EVERY count:** e.g. 10 = full sequence; 5 to 9 = run only as many framework emails as there are details (keep the lead framework and the free-thing framework), then the closers; 2 to 4 = the thin-research alternate as the lead plus the closers; under 2 = skip. One alternate cannot fill several empty slots without repeating itself. Never send a bracket, a guess or an invented detail.
 
 ## §12 Offer block (for the agent and setter, never pasted)
 
@@ -158,7 +159,7 @@ Each framework, in this exact shape:
 >
 > {close: ... + easy out}
 
-**Example ({segment}, {town}):**
+**Example ({segment}, {town}):**  (aim 80 to 95 words so the longest sign-off spin option still fits under 100)
 
 > Hey {Name},
 >

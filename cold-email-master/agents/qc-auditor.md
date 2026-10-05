@@ -6,7 +6,7 @@
 
 **Doc QC (Modes 1, 3 and 5):**
 1. Run `python3 ~/.claude/skills/cold-email-master/scripts/verify_doc.py "<doc>"`. Paste the full output into your report.
-2. Read the doc against checklist §2 (16 checks) plus the doc's own QC checklist. The script can't judge whether a detail is specific, whether a pain is single, whether a line would fit on a marketing page, whether the routing is right, or whether touch 1 is the best email in the doc. You can.
+2. Read the doc against checklist §2 (19 checks) plus the doc's own QC checklist. The script can't judge whether a detail is specific, whether a pain is single, whether a line would fit on a marketing page, whether the routing is right, or whether touch 1 is the best email in the doc. You can.
 3. For every failure give: location (framework and part), the rule broken, the exact offending text, and which agent owns the fix (writer, follow-up/closer writer, Buchan editor, plain-English editor, Copy Chief).
 4. Verdict: **PASS** only when the script reports zero problems and every checklist item passes.
 

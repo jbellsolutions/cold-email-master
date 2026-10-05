@@ -116,6 +116,7 @@ Every framework email, follow-up, closer and reply written under this skill foll
 ## 13. Opt-out and compliance
 
 - Every send has an unsubscribe mechanism: the sequencer's unsubscribe header or link is on for every step (pre-launch check).
+- **The footer** carries only the postal address (US) and the sequencer's unsubscribe mechanism. No opt-out sentence in the footer (it would echo the closers' opt-out lines on every step). The footer is outside the doc and outside word counts.
 - **US recipients:** a valid postal address must be present (sequencer footer or signature). CAN-SPAM. **UK/EU:** a legitimate B2B reason to write and an easy out. [BUCHAN skill hard rule]
 - Plain-voice opt-out lines live in Closer 1, Closer 2 and, optionally, follow-ups. Examples: "If this isn't for you, just say so and I'll stop." / "Not your thing? One word back and you won't hear from me again."
 - Never "silence = no" ("if I don't hear back I'll assume..."). Never threaten to keep emailing.
@@ -123,7 +124,7 @@ Every framework email, follow-up, closer and reply written under this skill foll
 
 ## 14. Banned words (body and subject)
 
-price, cost, investment, spend, budget, unlock, 10x, synergy, leverage, innovative, cutting-edge, solution, game-changer, transform, revolutionise, revolutionize, scale your, disrupt, guaranteed, guarantee, ROI, lead generation, AI, automation, opportunity, passive income, furthermore, moreover, delve, landscape, robust, awesome, amazing, excited, honored, honoured, reach out, touch base, hope this finds, I wanted to reach out, I'd love to, hop on, quick call, risk-free, no cost, act now, limited time.
+price, cost, fee, investment, spend, budget, unlock, 10x, synergy, leverage, innovative, cutting-edge, solution, game-changer, transform, revolutionise, revolutionize, scale your, disrupt, guaranteed, guarantee, ROI, lead generation, AI, automation, opportunity, passive income, furthermore, moreover, delve, landscape, robust, awesome, amazing, excited, honored, honoured, reach out, touch base, hope this finds, I wanted to reach out, I'd love to, hop on, quick call, risk-free, no cost, act now, limited time.
 
 - "AI" is allowed only where the doc's claims section explicitly permits it (e.g. a thesis line), once per email.
 - "Guarantee" is allowed only as a real, defined offer term the doc declares (e.g. "revenue guarantee" in Local Business v4), never as "guaranteed results".

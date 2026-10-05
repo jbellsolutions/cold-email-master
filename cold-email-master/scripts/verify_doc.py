@@ -34,7 +34,7 @@ import re
 import sys
 
 BANNED = [
-    "price", "cost", "investment", "spend", "budget", "unlock", "10x", "synergy", "leverage",
+    "price", "cost", "fee", "fees", "investment", "spend", "budget", "unlock", "10x", "synergy", "leverage",
     "innovative", "cutting-edge", "solution", "game-changer", "transform", "revolutionise",
     "revolutionize", "scale your", "disrupt", "guaranteed", "guarantee", "roi", "lead generation",
     "ai", "automation", "opportunity", "passive income", "furthermore", "moreover", "delve",
@@ -213,7 +213,8 @@ def directives(doc):
 
 
 def blockquote_after(body, label_regex):
-    m = re.search(r"\*\*" + label_regex + r"[^\n]*\*\*[^\n]*\n+((?:>.*(?:\n|$))+)", body, re.I)
+    # allow up to 4 non-quote lines (e.g. "*Job:* ...") between the label and its blockquote
+    m = re.search(r"\*\*" + label_regex + r"[^\n]*\*\*[^\n]*\n(?:(?![>#]|\*\*)[^\n]*\n){0,4}((?:>.*(?:\n|$))+)", body, re.I)
     return unquote(m.group(1)) if m else None
 
 
@@ -262,6 +263,30 @@ def verify_doc(path, show_grades=False, legacy=False):
                         problems.append(f"{label}: spin option '{o}' has banned '{b}'")
                     if re.search("[–—!]", o):
                         problems.append(f"{label}: spin option '{o}' has a dash or '!'")
+
+    # repeated closes / sentences across a lead's sequence (every framework email goes to the same lead)
+    closes, sent_seen = {}, {}
+    for p in fws:
+        label = re.match(r"# ((?:FRAMEWORK \d+)|(?:ALTERNATE [A-Z]))", p).group(1)
+        ex = blockquote_after(p, r"Example")
+        if not ex:
+            continue
+        body = [l.strip() for l in render_spin(ex).splitlines() if l.strip()]
+        if len(body) > 2 and len(body[-1].split()) <= 3:
+            body = body[:-1]  # drop the sign-off line
+        if len(body) > 1:
+            last = re.split(r"(?<=[.?])\s+", body[-1])
+            closes.setdefault(last[0].lower().rstrip(".?"), []).append(label)
+        for s in re.split(r"(?<=[.?])\s+", " ".join(body[1:])):
+            key = re.sub(r"[^a-z0-9 ]", "", s.lower()).strip()
+            if len(key.split()) >= 7:
+                sent_seen.setdefault(key, []).append(label)
+    for c, labels in closes.items():
+        if len(labels) > 1:
+            problems.append(f"close repeated across {', '.join(labels)}: '{c}' (word each close fresh)")
+    for s, labels in sent_seen.items():
+        if len(labels) > 1:
+            notes.append(f"sentence repeated across {', '.join(labels)}: '{s[:70]}' (fine only if it is a designated signature line)")
 
     # closers
     cl = re.search(r"\n# [^\n]*CLOSERS[^\n]*\n(.*?)(?=\n# (?!#))", doc + "\n# END", re.S)

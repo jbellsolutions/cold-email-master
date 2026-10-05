@@ -83,6 +83,8 @@ Dispatch with the Agent tool. **Every brief includes:** the agent's own prompt f
 | 8 | QC Auditor (`agents/qc-auditor.md`) | sonnet (script runs may use haiku) | no | `verify_doc.py` zero flags + checklist 2 passes. Failures go back to the stage that owns them; loop until clean. |
 | 9 | You | (you) | | Final read; deliver. |
 
+**The ED brief (do this every time):** after the Strategist's verdict, write your binding decisions (offer fixes adopted, reward, close type, closes and escape hatches assigned per framework so parallel writers never collide, opener rules, follow-up job table, what stays OUT of copy) to `ed-brief.md` beside the working doc, and hand its path to every later agent. Any stage that ran before a decision changed gets re-briefed and re-run. (Learned 2026-10-04: a reply section written in parallel with the Strategist went stale when the reward changed.)
+
 **Assembly:** you assemble the doc in master-template order as stages return, at `{project or working dir}/Cold Email Frameworks — {Niche} ({Offer}) v{n}.md`. Agents return sections; you own the file.
 
 **Your final read (stage 9):** Does §0 match the frameworks (the signal shows up in relevance lines, the free thing matches, the mode matches the policy section)? Is touch 1 the best email in the doc? Are open items honest? Then:
@@ -103,8 +105,7 @@ Dispatch with the Agent tool. **Every brief includes:** the agent's own prompt f
   6. Never upload without approval.
 - **Mode 5 (audit/upgrade):**
   1. Run `verify_doc.py` on the doc and list the flags.
-  2. The QC Auditor reads it against checklist 2.
-  3. The Strategist writes §0 from the doc and the offer.
+  2. The QC Auditor reads it against checklist 2, and the Strategist writes §0 from the doc and the offer. These two can run in parallel. **Nothing else runs until the Strategist's verdict is in and the ED brief is written.**
   4. Fixes are routed to the owning agents: writers for copy, the Follow-up & Closer Writer for spin sets, the Reply Setter and Deliverability Engineer for the new v2 sections.
   5. Deliver v{n+1} plus a changelog at the top of the doc.
 - **Mode 6 (diagnose):** the Analyst (`agents/analyst.md`, opus) leads, using the Deliverability Engineer for levels 1 to 5 and List & Signals for a 20-row list check. Diagnose in order. Apply the 1,000-send rule. Output the diagnosis, verdicts and the next 1 to 3 tests, and log it to Obsidian.
